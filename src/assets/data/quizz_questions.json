@@ -1,55 +1,59 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Que tipo de Dev você é?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual tecnologia você escolheria para um novo projeto?",
+      "options": [
+        { "id": 1, "name": "Java", "alias": "A" },
+        { "id": 2, "name": "JavaScript", "alias": "B" },
+        { "id": 3, "name": "Python", "alias": "B" },
+        { "id": 4, "name": "C++", "alias": "A" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Qual dessas frases você mais se identifica?",
+      "options": [
+        { "id": 1, "name": "Funciona na minha máquina!", "alias": "A" },
+        { "id": 2, "name": "A culpa é do front-end.", "alias": "A" },
+        { "id": 3, "name": "Já tentou limpar o cache?", "alias": "B" },
+        { "id": 4, "name": "O deploy quebrou? Mas na branch local tava certo!", "alias": "B" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Como você lida com bugs?",
+      "options": [
+        { "id": 1, "name": "Dá um console.log e torce pelo melhor.", "alias": "B" },
+        { "id": 2, "name": "Refatora tudo do zero.", "alias": "A" },
+        { "id": 3, "name": "Coloca um try/catch e finge que nunca existiu.", "alias": "A" },
+        { "id": 4, "name": "Lê a documentação e resolve de forma elegante.", "alias": "B" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Seu código precisa ser...",
+      "options": [
+        { "id": 1, "name": "Otimizado e performático, nem que fique ilegível.", "alias": "A" },
+        { "id": 2, "name": "Claro e bem documentado.", "alias": "B" },
+        { "id": 3, "name": "Cheio de comentários engraçados.", "alias": "A" },
+        { "id": 4, "name": "Do jeito que funcionar, tá bom.", "alias": "B" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Como você reage quando pedem mudanças no projeto?",
+      "options": [
+        { "id": 1, "name": "Reclama, mas faz.", "alias": "B" },
+        { "id": 2, "name": "Responde com 'depende' e enrola.", "alias": "A" },
+        { "id": 3, "name": "Faz um documento de 10 páginas explicando por que não é viável.", "alias": "A" },
+        { "id": 4, "name": "Aceita de boa e sugere melhorias.", "alias": "B" }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  "results": {
+    "A": "Você é um dev caótico! Seu código pode até funcionar, mas sempre tem um jeitinho alternativo. Provavelmente, seus commits têm mensagens como 'fix bug' ou 'agora vai'.",
+    "B": "Você é um dev organizado! Segue boas práticas, lê documentação e faz código limpo. Seu sonho é que todos sigam os padrões de desenvolvimento."
   }
 }
